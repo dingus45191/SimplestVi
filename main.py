@@ -19,7 +19,7 @@ def show():
     cmd= 'start payload.txt'
     os.system(cmd)
 
-schedule.every(10).seconds.do(start)
+schedule.every(10).minutes.do(start)
 schedule.every().day.at('10:30').do(start)
 
 schedule.every(1).hour.do(show)
