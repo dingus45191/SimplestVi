@@ -1,4 +1,11 @@
 {
     "deepscan.enable": true,
-    "python.pythonPath": "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python39\\python.exe"
+    "python.pythonPath": "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex"
+    ]
 }
